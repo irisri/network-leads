@@ -1,16 +1,9 @@
 * {
 	box-sizing: border-box;
 }
-.app {
-	text-align: center;
-}
-
-.right-to-left {
-	direction: rtl;
-}
 
 html {
-	font-family: OpenSans, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 	scroll-behavior: smooth;
 }
@@ -19,9 +12,8 @@ body {
 	min-height: 100vh;
 }
 
-.main-container {
-	max-width: 1200px;
-	margin: 0 auto;
+.app {
+	text-align: center;
 }
 
 img {
@@ -43,4 +35,25 @@ p {
 a {
 	text-decoration: none;
 	color: black;
+}
+
+.icon {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	border: none;
+	outline: none;
+}
+
+.icon:hover {
+	cursor: pointer;
+}
+
+.icon i {
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+button {
+	cursor: pointer;
 }

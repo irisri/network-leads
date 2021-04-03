@@ -8,7 +8,7 @@ export function ShoppingCart() {
 	const [cart, setCart] = useState(null);
 
 	useEffect(() => {
-		setCart(getCart());
+		if (getCart()) setCart(getCart());
 	}, []);
 
 	const removeItem = (event, item) => {
@@ -16,6 +16,8 @@ export function ShoppingCart() {
 		const resCart = removeItemFromCart(item);
 		setCart(resCart);
 	};
+
+	console.log(getCart());
 
 	return (
 		<div>
