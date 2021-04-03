@@ -1,0 +1,11 @@
+form {
+	margin: 15px 0;
+	text-align: center;
+}
+
+form select {
+	padding: 5px;
+	width: 190px;
+	border-radius: 10px;
+	outline: none;
+}

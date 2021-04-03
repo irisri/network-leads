@@ -1,0 +1,23 @@
+.card {
+	padding: 20px;
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.card button {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	border: none;
+	outline: none;
+}
+
+.card button:hover {
+	cursor: pointer;
+}
+
+.card i {
+	margin-left: 10px;
+	font-size: 15px;
+}

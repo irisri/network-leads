@@ -1,0 +1,23 @@
+form {
+	margin: 15px 0;
+	text-align: center;
+}
+
+form select {
+	padding: 5px;
+	width: 190px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.shop {
+	margin-top: 50px;
+}
+
+.category {
+	margin: 20px 0;
+}
+
+.category h2 {
+	margin-bottom: 10px;
+}
