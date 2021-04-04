@@ -14,7 +14,6 @@ export class Shop extends React.Component {
 	componentDidMount() {
 		const products = productServices.getProductList(this.state.filter);
 		const categories = productServices.getCategories();
-		categories.unshift("All");
 		this.setState({ categories, products });
 	}
 

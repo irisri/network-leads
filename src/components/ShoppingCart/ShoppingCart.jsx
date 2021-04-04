@@ -5,7 +5,7 @@ import { CartList } from "../CartList/CartList";
 export function ShoppingCart() {
 	const { getCart, removeItemFromCart } = useContext(CartContext);
 
-	const [cart, setCart] = useState(null);
+	const [cart, setCart] = useState([]);
 
 	useEffect(() => {
 		if (getCart()) setCart(getCart());
@@ -13,18 +13,16 @@ export function ShoppingCart() {
 
 	const removeItem = (event, item) => {
 		event.preventDefault();
-		const resCart = removeItemFromCart(item);
-		setCart(resCart);
+		const updatedCart = removeItemFromCart(item);
+		setCart(updatedCart);
 	};
-
-	console.log(getCart());
 
 	return (
 		<div>
-			{cart ? (
-				<CartList cart={cart} onRemoveItem={removeItem} />
-			) : (
+			{cart.length === 0 ? (
 				<p>There is nothing in the cart!</p>
+			) : (
+				<CartList cart={cart} onRemoveItem={removeItem} />
 			)}
 		</div>
 	);

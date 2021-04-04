@@ -12,7 +12,7 @@ const PRODUCTS = [
 	},
 	{ Bakery: ["Bread", "Pita", "Danish"] },
 	{ Vegetables: ["Tomatoes", "Cucumbers", "Peppers", "Carrots"] },
-	{ fruits: ["Apples", "Oranges", "Bananas"] },
+	{ Fruits: ["Apples", "Oranges", "Bananas"] },
 ];
 
 const gProducts = loadProducts();
@@ -35,7 +35,12 @@ function getProductList(filterBy) {
 }
 
 function getCategories() {
-	return Object.keys(gProducts);
+	let categories = [];
+	for (let i = 0; i < gProducts.length; i++) {
+		categories.push(Object.keys(gProducts[i])[0]);
+	}
+	categories.unshift("All");
+	return categories;
 }
 
 export const productServices = { getProductList, getCategories };

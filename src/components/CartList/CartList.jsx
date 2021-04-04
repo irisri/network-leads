@@ -7,16 +7,20 @@ export function CartList(props) {
 
 	return (
 		<div>
-			{Object.keys(cart).map((key) => (
-				<div className="flex wrap justify-center cart-item" key={key}>
-					<CartDetails product={key} amount={cart[key]} />
-					<button
-						onClick={(event) => onRemoveItem(event, key)}
-						className="icon">
-						<i className="fas fa-trash-alt"></i>
-					</button>
-				</div>
-			))}
+			{cart.map((cartItem, i) => {
+				const productName = Object.keys(cartItem)[0];
+				const productAmount = cartItem[productName];
+				return (
+					<div className="flex wrap justify-center cart-item" key={i}>
+						<CartDetails product={productName} amount={productAmount} />
+						<button
+							onClick={(event) => onRemoveItem(event, productName)}
+							className="icon">
+							<i className="fas fa-trash-alt"></i>
+						</button>
+					</div>
+				);
+			})}
 		</div>
 	);
 }

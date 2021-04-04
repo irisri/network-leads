@@ -8,13 +8,12 @@ export function ProductsList(props) {
 
 	return (
 		<div>
-			{Object.keys(products).map((key, i) => {
-				// const items = products[key];
+			{products.map((product, i) => {
 				return (
 					<div className="category" key={i}>
-						<h2>{key}</h2>
+						<h2>{Object.keys(product)[0]}</h2>
 						<div className="flex wrap">
-							{products[key].map((product, index) => {
+							{product[Object.keys(product)[0]].map((product, index) => {
 								return <ProductCard productName={product} key={index} />;
 							})}
 						</div>
