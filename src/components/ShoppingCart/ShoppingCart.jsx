@@ -17,12 +17,20 @@ export function ShoppingCart() {
 		setCart(updatedCart);
 	};
 
+	const printCart = (event) => {
+		event.preventDefault();
+		console.log(cart);
+	};
+
 	return (
 		<div>
 			{cart.length === 0 ? (
 				<p>There is nothing in the cart!</p>
 			) : (
-				<CartList cart={cart} onRemoveItem={removeItem} />
+				<div>
+					<CartList cart={cart} onRemoveItem={removeItem} />
+					<button onClick={(event) => printCart(event)}>Buy</button>
+				</div>
 			)}
 		</div>
 	);
