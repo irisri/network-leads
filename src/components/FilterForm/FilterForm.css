@@ -1,0 +1,17 @@
+form {
+	margin: 15px 0;
+	text-align: center;
+}
+
+select,
+input {
+	padding: 5px;
+	width: 190px;
+	border: 1px solid black;
+	border-radius: 10px;
+	outline: none;
+}
+
+select:first-of-type {
+	margin-right: 100px;
+}
