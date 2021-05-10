@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/irisri/network-leads/static/css/main.2cc019ff.chunk.css",
+    "main.js": "/irisri/network-leads/static/js/main.b18a934a.chunk.js",
+    "main.js.map": "/irisri/network-leads/static/js/main.b18a934a.chunk.js.map",
+    "runtime-main.js": "/irisri/network-leads/static/js/runtime-main.c368a9b0.js",
+    "runtime-main.js.map": "/irisri/network-leads/static/js/runtime-main.c368a9b0.js.map",
+    "static/js/2.986c514a.chunk.js": "/irisri/network-leads/static/js/2.986c514a.chunk.js",
+    "static/js/2.986c514a.chunk.js.map": "/irisri/network-leads/static/js/2.986c514a.chunk.js.map",
+    "static/js/3.843a51b5.chunk.js": "/irisri/network-leads/static/js/3.843a51b5.chunk.js",
+    "static/js/3.843a51b5.chunk.js.map": "/irisri/network-leads/static/js/3.843a51b5.chunk.js.map",
+    "index.html": "/irisri/network-leads/index.html",
+    "static/css/main.2cc019ff.chunk.css.map": "/irisri/network-leads/static/css/main.2cc019ff.chunk.css.map",
+    "static/js/2.986c514a.chunk.js.LICENSE.txt": "/irisri/network-leads/static/js/2.986c514a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c368a9b0.js",
+    "static/js/2.986c514a.chunk.js",
+    "static/css/main.2cc019ff.chunk.css",
+    "static/js/main.b18a934a.chunk.js"
+  ]
+}
