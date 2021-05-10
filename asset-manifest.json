@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/network-leads/static/css/main.2cc019ff.chunk.css",
-    "main.js": "/network-leads/static/js/main.b18a934a.chunk.js",
-    "main.js.map": "/network-leads/static/js/main.b18a934a.chunk.js.map",
-    "runtime-main.js": "/network-leads/static/js/runtime-main.5d90e016.js",
-    "runtime-main.js.map": "/network-leads/static/js/runtime-main.5d90e016.js.map",
-    "static/js/2.986c514a.chunk.js": "/network-leads/static/js/2.986c514a.chunk.js",
-    "static/js/2.986c514a.chunk.js.map": "/network-leads/static/js/2.986c514a.chunk.js.map",
-    "static/js/3.843a51b5.chunk.js": "/network-leads/static/js/3.843a51b5.chunk.js",
-    "static/js/3.843a51b5.chunk.js.map": "/network-leads/static/js/3.843a51b5.chunk.js.map",
-    "index.html": "/network-leads/index.html",
-    "static/css/main.2cc019ff.chunk.css.map": "/network-leads/static/css/main.2cc019ff.chunk.css.map",
-    "static/js/2.986c514a.chunk.js.LICENSE.txt": "/network-leads/static/js/2.986c514a.chunk.js.LICENSE.txt"
+    "main.css": "//irisri.github.io/network-leads/static/css/main.2cc019ff.chunk.css",
+    "main.js": "//irisri.github.io/network-leads/static/js/main.b18a934a.chunk.js",
+    "main.js.map": "//irisri.github.io/network-leads/static/js/main.b18a934a.chunk.js.map",
+    "runtime-main.js": "//irisri.github.io/network-leads/static/js/runtime-main.832e0344.js",
+    "runtime-main.js.map": "//irisri.github.io/network-leads/static/js/runtime-main.832e0344.js.map",
+    "static/js/2.986c514a.chunk.js": "//irisri.github.io/network-leads/static/js/2.986c514a.chunk.js",
+    "static/js/2.986c514a.chunk.js.map": "//irisri.github.io/network-leads/static/js/2.986c514a.chunk.js.map",
+    "static/js/3.843a51b5.chunk.js": "//irisri.github.io/network-leads/static/js/3.843a51b5.chunk.js",
+    "static/js/3.843a51b5.chunk.js.map": "//irisri.github.io/network-leads/static/js/3.843a51b5.chunk.js.map",
+    "index.html": "//irisri.github.io/network-leads/index.html",
+    "static/css/main.2cc019ff.chunk.css.map": "//irisri.github.io/network-leads/static/css/main.2cc019ff.chunk.css.map",
+    "static/js/2.986c514a.chunk.js.LICENSE.txt": "//irisri.github.io/network-leads/static/js/2.986c514a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d90e016.js",
+    "static/js/runtime-main.832e0344.js",
     "static/js/2.986c514a.chunk.js",
     "static/css/main.2cc019ff.chunk.css",
     "static/js/main.b18a934a.chunk.js"
