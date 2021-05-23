@@ -8,7 +8,7 @@ export function AppHeader() {
 			<nav className="flex space-between align-center">
 				<div>
 					<h1>
-						<Link to="/">Shop</Link>
+						<Link to="/network-leads">Shop</Link>
 					</h1>
 				</div>
 				<div>

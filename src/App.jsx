@@ -14,7 +14,7 @@ function App() {
 				<Router>
 					<AppHeader />
 					<Switch>
-						<Route path="/" component={Shop}></Route>
+						<Route path="/network-leads" component={Shop}></Route>
 						<Route path="/cart" component={ShoppingCart}></Route>
 					</Switch>
 				</Router>
