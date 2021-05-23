@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "//irisri.github.io/network-leads/static/css/main.5e9664f9.chunk.css",
-    "main.js": "//irisri.github.io/network-leads/static/js/main.6e716430.chunk.js",
-    "main.js.map": "//irisri.github.io/network-leads/static/js/main.6e716430.chunk.js.map",
+    "main.js": "//irisri.github.io/network-leads/static/js/main.b686fbaf.chunk.js",
+    "main.js.map": "//irisri.github.io/network-leads/static/js/main.b686fbaf.chunk.js.map",
     "runtime-main.js": "//irisri.github.io/network-leads/static/js/runtime-main.d9da2ebe.js",
     "runtime-main.js.map": "//irisri.github.io/network-leads/static/js/runtime-main.d9da2ebe.js.map",
     "static/js/2.495c0526.chunk.js": "//irisri.github.io/network-leads/static/js/2.495c0526.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d9da2ebe.js",
     "static/js/2.495c0526.chunk.js",
     "static/css/main.5e9664f9.chunk.css",
-    "static/js/main.6e716430.chunk.js"
+    "static/js/main.b686fbaf.chunk.js"
   ]
 }
