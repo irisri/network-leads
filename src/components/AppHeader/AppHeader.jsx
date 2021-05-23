@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./AppHeader.css";
 
 export function AppHeader() {
@@ -8,11 +8,11 @@ export function AppHeader() {
 			<nav className="flex space-between align-center">
 				<div>
 					<h1>
-						<NavLink to="/">Shop</NavLink>
+						<Link to="/">Shop</Link>
 					</h1>
 				</div>
 				<div>
-					<NavLink to="/cart">Cart</NavLink>
+					<Link to="/cart">Cart</Link>
 				</div>
 			</nav>
 		</header>
